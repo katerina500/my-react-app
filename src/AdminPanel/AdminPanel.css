@@ -1,0 +1,87 @@
+.admin-panel{
+    width: 80%;
+}
+.admin-panel-btn {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.todo-btn-add {
+    display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 25px;
+	margin: 0 15px 15px 0;
+	border: 1px solid #fff;
+	border-radius: 50px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 14px;
+	font-weight: 600;
+	color: #4a4949;
+	background-color: #cadeff;
+	box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
+	cursor: pointer;
+    vertical-align: top;
+}
+.modal-open-admin{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 600px;
+    height: 100%;
+    z-index: 9999;
+}
+.modal-admin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-admin-input {
+    width: 80%;
+    height: 20px;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.modal-btn {
+    margin-top: 30px;
+}
+.modal-admin-btn {
+    display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 25px;
+	margin: 0 15px 15px 0;
+	border: 1px solid #fff;
+	border-radius: 50px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 14px;
+	font-weight: 600;
+	color: #444;
+	background-color: #fff;
+	box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
+	cursor: pointer;
+    vertical-align: top;
+}
+
+.duration1 , .duration2 {
+    width: 130px;
+}
+
+.start-date , .end-date {
+    width: 130px;
+    cursor: pointer;
+}

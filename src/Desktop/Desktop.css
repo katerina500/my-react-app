@@ -1,0 +1,85 @@
+.desktop-name{
+   font-size: 20px;
+}
+.tabs {
+    width: 80%;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.tab {
+    margin: 0 0 -1px;
+    padding: 10px ;
+    color: gray;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+}
+.tabpanel {
+  display: flex;
+  flex-direction: row;
+}
+.statics {
+  width: 20%;
+  margin-right: auto;
+  margin-left: 20px;
+}
+.statics-name {
+  font-size: 18px;
+}
+
+.react-tabs__tab--selected {
+    background: #209cee;
+    color: rgb(141, 129, 129) !important;
+    border: 1px solid #ffffff;
+ }
+
+ .product {
+    width: 80%;
+    border: 1px solid rgb(237, 2, 2);
+    padding: 5px;
+    border-radius: 10px;
+ }
+
+ .product-duration {
+   margin-left: 40px;
+   font-size: 16px;
+ }
+
+ .product-name {
+   margin-left: 40px;
+   font-size: 18px;
+ }
+
+
+ .product-li {
+    border: 1px solid grey;
+    padding: 5px;
+    list-style-type: none;
+ }
+
+ .search{
+   border: 1px solid #ccc;
+   display: inline-block;
+   border-radius: 3px;
+   font-size: 20px;
+   margin-right: 15px;
+   margin-bottom: 10px;
+ }
+ [type='search']{
+   border: none;
+   outline: none;
+ }
+ .fas.fa-search{
+   color: #ccc;
+ }
+ 
+ input[type=text]::-ms-clear {  display: none; width : 0; height: 0; }
+ input[type=text]::-ms-reveal {  display: none; width : 0; height: 0; }
+ input[type="search"]::-webkit-search-decoration,
+ input[type="search"]::-webkit-search-cancel-button,
+ input[type="search"]::-webkit-search-results-button,
+ input[type="search"]::-webkit-search-results-decoration { display: none; }
+ 
